@@ -29,6 +29,7 @@ Route::get('/', function () {
 Route::get('/dashboard', function () {
     return Inertia::render('Dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
+Route::get('/colors',[ColorController::class,'show']);
  Route::get('/products',[ProductController::class,'showProduct']);
 
 Route::middleware('auth')->group(function () {
