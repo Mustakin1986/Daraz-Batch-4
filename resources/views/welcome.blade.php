@@ -7,6 +7,7 @@
         <title>Daraz</title>
         <title>Daraz-2</title>
         <title>Daraz-3</title>
+        <title>Sharif</title>
 
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net">
